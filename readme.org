@@ -1,0 +1,16 @@
+* S[ck]rip(t|t?c)ie as a Service
+
+** Crash & Compile
+
+#+BEGIN_QUOTE
+It's like Airbnb but for programming competitions
+#+END_QUOTE
+
+
+* Local Development
+
+Hosting our website locally is quick and easy once you've installed Docker.
+#+BEGIN_SRC sh
+docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll \
+                   -it -p 127.0.0.1:4000:4000 jekyll/jekyll jekyll serve --watch
+#+END_SRC

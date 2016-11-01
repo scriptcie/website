@@ -1,0 +1,22 @@
+# Site settings
+title: S[ck]rip(t|t?c)ie
+email: kathinka@professorfrancken.nl
+url: https://scriptcie.nl
+description: "S[ck]rip(t|t?c)ie as a Service"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: S[ck]rip(t|t?c)ie
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/scriptcie/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
